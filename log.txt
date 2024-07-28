@@ -1,0 +1,69 @@
+* commit a9cf7eaf5eade8f464e9adb72f63cfa0df2b46a2
+| Author: Rand Naem <randnaem@gmail.com>
+| Date:   Sun Jul 28 21:24:54 2024 +0300
+| 
+|     Untrack all files and re-add specific files
+| 
+|  .idea/.gitignore     |   8 -
+|  .idea/HW3.iml        |   8 -
+|  .idea/modules.xml    |   8 -
+|  .idea/vcs.xml        |   6 -
+|  Person.cpp           |  51 -----
+|  Person.h             |  79 --------
+|  README.md            |   7 -
+|  Task.cpp             |  83 --------
+|  Task.h               | 115 -----------
+|  main.cpp             | 531 -------------------------------------------------
+|  tests/test1.expected |   3 -
+|  tests/test2.expected |   3 -
+|  tests/test3.expected |  30 ---
+|  tests/test4.expected |   3 -
+|  tests/test5.expected |   3 -
+|  tests/test6.expected |  15 --
+|  16 files changed, 953 deletions(-)
+| 
+* commit 9ca75e0b7670bf01cfc1994762ab582a15dbb923
+| Author: Rand Naem <randnaem@gmail.com>
+| Date:   Sun Jul 28 21:14:15 2024 +0300
+| 
+|     Including only required files for submitting
+| 
+|  .gitignore        |   7 ++
+|  .idea/.gitignore  |   8 ++
+|  .idea/HW3.iml     |   8 ++
+|  .idea/modules.xml |   8 ++
+|  .idea/vcs.xml     |   6 ++
+|  SortedList.h      | 241 ++++++++++++++++++++++++++++++++++++++++++++++++----
+|  TaskManager.cpp   | 136 +++++++++++++++++++++++++++++
+|  TaskManager.h     |   7 +-
+|  8 files changed, 401 insertions(+), 20 deletions(-)
+| 
+* commit ebb9fc09ff533a819b528f0a66d73a6fd453475b
+| Author: AdiHarif <adi.harif@campus.technion.ac.il>
+| Date:   Mon Jul 15 20:55:03 2024 +0300
+| 
+|     Adds supplied files
+| 
+|  Person.cpp           |  51 +++++
+|  Person.h             |  79 ++++++++
+|  SortedList.h         |  57 ++++++
+|  Task.cpp             |  83 ++++++++
+|  Task.h               | 115 +++++++++++
+|  TaskManager.h        |  75 +++++++
+|  main.cpp             | 531 +++++++++++++++++++++++++++++++++++++++++++++++++
+|  tests/test1.expected |   3 +
+|  tests/test2.expected |   3 +
+|  tests/test3.expected |  30 +++
+|  tests/test4.expected |   3 +
+|  tests/test5.expected |   3 +
+|  tests/test6.expected |  15 ++
+|  13 files changed, 1048 insertions(+)
+| 
+* commit 1d686955fb829e5ecd8af0a69edce35628cc5d8d
+  Author: AdiHarif <adi.harif@campus.technion.ac.il>
+  Date:   Mon Jul 15 20:53:59 2024 +0300
+  
+      Initial Commit - Adds README file
+  
+   README.md | 7 +++++++
+   1 file changed, 7 insertions(+)
